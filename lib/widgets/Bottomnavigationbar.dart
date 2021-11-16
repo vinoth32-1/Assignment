@@ -144,8 +144,8 @@ class _BottomnavigationState extends State<Bottomnavigation> {
               type: BottomNavigationBarType.fixed,
               items:  <BottomNavigationBarItem>[
                 bottomNavigationItem( Icon(Icons.home),'Home'),
-                bottomNavigationItem(Icon(Icons.login),'login'),
-                bottomNavigationItem(Icon(Icons.logout),'logout'),
+                bottomNavigationItem(Icon(Icons.login),'Login'),
+                bottomNavigationItem(Icon(Icons.logout),'Logout'),
               ],
               currentIndex: ggg,
               selectedItemColor: Colors.amber[800],
